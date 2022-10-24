@@ -1,0 +1,50 @@
+.highlight{
+    border:1px solid #4299e1 ;
+    border-radius: 5px;
+}
+.normalBorder{
+    border:1px solid #edf1f6;
+    border-radius: 5px;
+
+}
+.stepperContainer{
+    width: 45%;
+
+margin: auto;
+}
+
+.typeofgroup{
+    display: block;
+}
+
+
+
+@media screen and (min-width:1400px) and (max-width:1600px) {
+    .widthManage{
+    width: 70%;
+
+    }
+    .stepperContainer{
+        width: 50%;
+    
+    }
+    
+}
+
+@media screen and (min-width:10px) and (max-width:1400px) {
+    .widthManage{
+    width: 100%;
+
+    }
+    .stepperContainer{
+        width: 80%;
+    }
+    .normalBorder{
+        padding: 5px;
+    }
+    .typeofgroup{
+        display: flex;
+        flex-direction: column;
+        color:red
+    }
+}
